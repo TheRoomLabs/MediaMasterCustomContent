@@ -1,0 +1,20 @@
+{
+  "name": "Button test",
+  "version": "0.0.1",
+  "description": "Button test description",
+  "icon": "lightbulb-on",
+  "media": {
+	 "audio": true,
+      "video": true,
+      "images": true
+  },
+  "events": {
+    "fromCogs": [],
+    "toCogs": [
+      {
+        "name": "ButtonPressed",
+        "value": { "type": "string" }
+      }
+    ]
+  }
+}
