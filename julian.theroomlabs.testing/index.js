@@ -9,6 +9,5 @@ function pressButton(buttonName){
 }
 
 window.onload = function(){
-	console.log("Test")
 	video.setParentElement(document.getElementById("center"));
 }
